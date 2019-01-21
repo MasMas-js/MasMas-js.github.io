@@ -53,9 +53,72 @@ This is pretty much self-explanatory.
   (3.2).round() //returns 3
   (3.24).round(1) //returns  3.2 - you can specifiy digits to round to.
 ```
+### Commafy
+Add commas to numbers! *This isn't in **ANY** languages*
+```js
+(1000).commafy() //Returns 1,000
+```
 ### String splicing - inserting code in the middle of a string!
 Insert characters in the middle of a string!
 ```js
 ("Hello World").splice(0/*index*/, 0/*just put zero for this one*/, "Hi") //returns "HiHello World"
+```
+### Global Variables
+Define global variables from inside functions! (Without any worries about overriding something)
+```js
+function foo(){
+  global("something", 5);
+}
+foo()
+console.log(something) //Logs 5
+```
+### Exists
+Check if something exists:
+```js
+var x;
+exists(x) //returns false
+```
+
+### LocalStorage made easy!
+You can now create a variable stored in localStorage like this:
+```js
+localStore("variable", 5) //Remebers variable in localStorage and can update
+```
+### The Wrap Function
+Basically an IIFE made easy + readable:
+```js
+wrap(()=>{
+  //Do stuff...
+}
+```
+### loadjQuery & loadScript
+Include javascript files on the fly!
+```js
+loadjQuery() //Now you have access to jQuery
+loadScript(url) //Load another script by the url
+```
+### Random class!
+Random numbers, made easy:
+```js
+var r = new Random();
+r.getRandomInt(1, 10);
+r.getRandomFloat(1, 10);
+r.getRandomBool();
+```
+### Easy canvas interface
+Get a head start with the HTML5 canvas with the setupCanvas function.
+```js
+setupCanvas();
+//canvas is document.getElementById("canvas")
+//ctx is canvas.getContext('2d')
+```
+And then use the MasMasCanvas class to simplify canvas drawing:
+```js
+var can = new MasMasCanvas(ctx);
+//And you get four nice methods to use:
+can.rect(x, y, width, height)
+can.ellipse(x, y, width height)
+can.text(text, x, y)
+can.fill("Color")
 ```
 [GitHub Main]: https://github.com/MasMas-js/MasMas.js
