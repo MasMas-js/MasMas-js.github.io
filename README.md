@@ -1,13 +1,14 @@
 # MasMas.js  
 The functions you need in JS that aren't provided!  
 
-# Setup
-Download MasMas.js from our github repository. (See top of site). Then, unzip the file, and add it to your project.
-In the html head, put:
+## Setup  
+
+Download MasMas.js from our GitHub repository. (See link above).  Then, unzip the file, and add it to your project.
+In the HTML head, put:
 ```html
-  <head>
-    <script src="masmas.js" type="text/javascript"></script>
-  </head>
+  <script src="masmas.js" type="text/javascript"></script>
 ```
-# Documentation
+
+## Documentation  
+
 Coming soon!
