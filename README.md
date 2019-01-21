@@ -11,6 +11,7 @@ In the HTML head, put:
 
 ## Documentation  
 
-Coming soon!
+### isFloat && isInteger
+Checks to see if number passed is float or int. Takes the true value of the number:
 
 [GitHub Main]: https://github.com/MasMas-js/MasMas.js
