@@ -21,4 +21,12 @@ isFloat(5.0) //returns false
 isFloat(5.2) //returns true
 ```
 
+### Int and Float types!
+You can now use 64-bit int and 64-bit float types in your code:
+```js
+var anInt = Int(5) //anInt is 5
+var anInt = Float(5) //Throws error
+var anInt = Float(5.2) //anInt is 5.2
+```
+
 [GitHub Main]: https://github.com/MasMas-js/MasMas.js
