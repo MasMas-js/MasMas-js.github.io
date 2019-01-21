@@ -91,7 +91,7 @@ wrap(()=>{
   //Do stuff...
 }
 ```
-### loadjQuery & loadScript (This DOSEN"T WORK YET)
+### loadjQuery & loadScript (This DOSEN'T WORK YET)
 Include javascript files on the fly!
 ```js
 loadjQuery() //Now you have access to jQuery
