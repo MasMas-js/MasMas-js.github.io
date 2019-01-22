@@ -13,7 +13,7 @@ In the HTML head, put:
 ## Documentation  
 
 ### `isFloat` & `isInteger`
-Checks to see if number passed is float or int. Takes the true value of the number:
+Checks to see if number passed is a float or int. Takes the true value of the number:
 ```js
 isInt(5)      // returns true
 isInt(5.0)    // returns true
@@ -33,14 +33,14 @@ var anInt = Float(5.2)  // anInt is 5.2
 ### The `A` function  
 
 JavaScript float addition has always been a bit finicky.
-The A function solves all that:
+The `A` function solves all that:
 ```js
 var num = 0.1+0.2        // Returns 0.30000000000000004 - ummm... what?!
 var num = (0.1+0.2).A()  // Returns 0.3 - Much better!
 ```
 ### "Repeat" Loops  
 
-A syntatic sugar trademark has been to make loops that look GOOD. MasMas comes with two such loops:
+A syntatic sugar trademark has been to make loops that look GOOD.  MasMas comes with two such loops:
 ```js
 (3).times(() => {
   console.log("Hello World!")
@@ -61,7 +61,7 @@ This is pretty much self-explanatory.
 ```
 ### Commafy  
 
-Add commas to numbers! *This isn't in **ANY** languages*
+Add commas to numbers!  *This isn't in **ANY** languages*.  
 ```js
 (1000).commafy() // Returns 1,000
 ```
@@ -72,7 +72,7 @@ Insert characters in the middle of a string!
 ```js
 ("Hello World").splice(0/*index*/, 0/*just put zero for this one*/, "Hi") // returns "HiHello World"
 ```
-### `Global` Variables  
+### `global` Variables  
 
 Define global variables from inside functions! (Without any worries about overriding something)
 ```js
@@ -83,7 +83,7 @@ foo()
 console.log(something) // Logs 5
 ```
 
-### Exists  
+### Exists?  
 
 Check if something exists:  
 ```js
