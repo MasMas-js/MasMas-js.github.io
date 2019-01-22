@@ -98,7 +98,7 @@ You can now create a variable stored in localStorage like this:
 ```js
 localStore("variable", 5); // Remebers variable in localStorage and can update
 ```
-### The Wrap Function  
+### The `wrap` Function  
 
 Basically an IIFE made easy + readable:
 ```js
@@ -107,7 +107,7 @@ wrap(() => {
 })
 ```
 
-### loadjQuery & loadScript  
+### `loadjQuery` & `loadScript`  
 
 Include JavaScript files on the fly!
 ```js
@@ -126,7 +126,7 @@ loadScript(url, function(){
   //Do stuff...
 });
 ```
-### Random class!  
+### `Random` class!  
 
 Random numbers, made easy:
 ```js
@@ -136,7 +136,7 @@ r.getRandomFloat(1, 10);
 r.getRandomBool();
 ```
 
-### Easy canvas interface  
+### Easy `canvas` interface  
 
 Get a head start with the HTML5 canvas with the setupCanvas function.
 ```js
@@ -144,7 +144,7 @@ setupCanvas();
 // canvas is document.getElementById("canvas")
 // ctx is canvas.getContext('2d')
 ```
-And then use the MasMasCanvas class to simplify canvas drawing:
+And then use the `MasMasCanvas` class to simplify canvas drawing:
 ```js
 var can = new MasMasCanvas(ctx);
 // And you get four nice methods to use:
