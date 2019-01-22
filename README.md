@@ -1,4 +1,4 @@
-### The functions you need in JS that aren't provided!  
+### The functions you need in JavaScript that aren't provided!  
 
 --------------
 
