@@ -38,14 +38,14 @@ The A function solves all that:
 var num = 0.1+0.2        // Returns 0.30000000000000004 - ummm... what?!
 var num = (0.1+0.2).A()  // Returns 0.3 - Much better!
 ```
-### "Repeat" Loops 
+### "Repeat" Loops  
 
 A syntatic sugar trademark has been to make loops that look GOOD. MasMas comes with two such loops:
 ```js
-(3).times(()=>{
+(3).times(() => {
   console.log("Hello World!")
 });
-execute(3, ()=>{
+execute(3, () => {
   console.log("Hello World!")
 });
 // These do the same thing! 
@@ -88,14 +88,14 @@ console.log(something) // Logs 5
 Check if something exists:  
 ```js
 var x;
-exists(x) //returns false
+exists(x) // returns false
 ```
 
 ### LocalStorage made easy!  
 
 You can now create a variable stored in localStorage like this:
 ```js
-localStore("variable", 5) //Remebers variable in localStorage and can update
+localStore("variable", 5) // Remebers variable in localStorage and can update
 ```
 ### The Wrap Function  
 
@@ -137,7 +137,7 @@ setupCanvas();
 And then use the MasMasCanvas class to simplify canvas drawing:
 ```js
 var can = new MasMasCanvas(ctx);
-//And you get four nice methods to use:
+// And you get four nice methods to use:
 can.rect(x, y, width, height)
 can.ellipse(x, y, width height)
 can.text(text, x, y)
