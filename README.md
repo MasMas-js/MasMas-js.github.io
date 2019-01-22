@@ -8,6 +8,10 @@ Download MasMas.js from our [GitHub repository][GitHub Main].  Then, unzip the f
 In the HTML head, put:
 ```html
 <script src="masmas.js" type="text/javascript"></script>
+<script>
+  OR...
+</script>
+<script src="https://raw.githubusercontent.com/MasMas-js/MasMas.js/master/masmas.js" type="text/javascript"></script>
 ```
 
 ## Documentation  
@@ -30,6 +34,7 @@ var anInt = Int(5)      // anInt is 5
 var anInt = Float(5)    // Throws error
 var anInt = Float(5.2)  // anInt is 5.2
 ```
+
 ### The `A` function  
 
 JavaScript float addition has always been a bit finicky.
@@ -38,6 +43,7 @@ The `A` function solves all that:
 var num = 0.1+0.2        // Returns 0.30000000000000004 - ummm... what?!
 var num = (0.1+0.2).A()  // Returns 0.3 - Much better!
 ```
+
 ### "Repeat" Loops  
 
 A syntatic sugar trademark has been to make loops that look GOOD.  MasMas comes with two such loops:
@@ -59,6 +65,7 @@ This is pretty much self-explanatory.
   (3.2).round()   //returns 3
   (3.24).round(1) //returns  3.2 - you can specifiy digits to round to.
 ```
+
 ### Commafy  
 
 Add commas to numbers!  *This isn't in **ANY** languages*.  
@@ -98,6 +105,7 @@ You can now create a variable stored in localStorage like this:
 ```js
 localStore("variable", 5); // Remebers variable in localStorage and can update
 ```
+
 ### The `wrap` Function  
 
 Basically an IIFE made easy + readable:
@@ -126,6 +134,7 @@ loadScript(url, function(){
   //Do stuff...
 });
 ```
+
 ### `Random` class!  
 
 Random numbers, made easy:
