@@ -60,17 +60,19 @@ execute(3, () => {
 ```
 However, using execute is recommended because support for *times* is shaky.  
 
-### Rounding... why didn't JS have this from the start?  
+### Rounding  
+Why hasn't JavaScript have this from the start?!  
 
 This is pretty much self-explanatory.
 ```js
-  (3.2).round()   //returns 3
-  (3.24).round(1) //returns  3.2 - you can specifiy digits to round to.
+  (3.2).round()   // returns 3
+  (3.24).round(1) // returns  3.2 - you can specifiy digits to round to.
 ```
 
 ### Commafy  
 
 Add commas to numbers!  *This isn't in **ANY** languages*.  
+
 ```js
 (1000).commafy() // Returns 1,000
 ```
@@ -128,12 +130,12 @@ However, if you just load the script, you won;t have access to it for a little w
 This can lead to unexpected errors. You can solve this by inserting a callback function to 
 execute once the script is loaded:
 ```js
-loadjQuery(function(){ //Once jQuery is loaded, do something with it.
-  $("body").html("JQuery was loaded!")
+loadjQuery(function() { // Once jQuery is loaded, do something with it.
+  $("body").html("jQuery was loaded!")
 });
-//Or with any other script:
-loadScript(url, function(){
-  //Do stuff...
+// Or with any other script:
+loadScript(url, function() {
+  // Do stuff...
 });
 ```
 
