@@ -13,7 +13,7 @@ In the HTML head, put:
 ## Documentation  
 
 ### `isFloat` & `isInteger`
-Checks to see if number passed is a float or int. Takes the true value of the number:
+Checks to see if number passed is a float/int depending on which function you use.  Takes the true value of the number as a parameter:
 ```js
 isInt(5)      // returns true
 isInt(5.0)    // returns true
