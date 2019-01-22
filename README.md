@@ -63,16 +63,16 @@ This is pretty much self-explanatory.
 
 Add commas to numbers! *This isn't in **ANY** languages*
 ```js
-(1000).commafy() //Returns 1,000
+(1000).commafy() // Returns 1,000
 ```
 
 ### String splicing - inserting code in the middle of a string!  
 
 Insert characters in the middle of a string!
 ```js
-("Hello World").splice(0/*index*/, 0/*just put zero for this one*/, "Hi") //returns "HiHello World"
+("Hello World").splice(0/*index*/, 0/*just put zero for this one*/, "Hi") // returns "HiHello World"
 ```
-### Global Variables  
+### `Global` Variables  
 
 Define global variables from inside functions! (Without any worries about overriding something)
 ```js
@@ -85,7 +85,7 @@ console.log(something) // Logs 5
 
 ### Exists  
 
-Check if something exists:
+Check if something exists:  
 ```js
 var x;
 exists(x) //returns false
@@ -105,13 +105,17 @@ wrap(() => {
   // Do stuff...
 }
 ```
-### loadjQuery & loadScript (This DOSEN'T WORK YET)  
+
+### loadjQuery & loadScript  
+
+***(This DOSEN'T WORK YET and has been removed for now)***  
 
 Include JavaScript files on the fly!
 ```js
 loadjQuery()    // Now you have access to jQuery
 loadScript(url) // Load another script by the url
 ```
+
 ### Random class!  
 
 Random numbers, made easy:
