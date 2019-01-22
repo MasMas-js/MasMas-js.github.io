@@ -114,7 +114,18 @@ Include JavaScript files on the fly!
 loadjQuery();    // Now you have access to jQuery
 loadScript(url); // Load another script by the url
 ```
-
+However, if you just load the script, you won;t have access to it for a little while. 
+This can lead to unexpected errors. You can solve this by inserting a callback function to 
+execute once the script is loaded:
+```js
+loadjQuery(function(){ //Once jQuery is loaded, do something with it.
+  $("body").html("JQuery was loaded!")
+});
+//Or with any other script:
+loadScript(url, function(){
+  //Do stuff...
+});
+```
 ### Random class!  
 
 Random numbers, made easy:
