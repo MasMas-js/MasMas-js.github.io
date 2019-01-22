@@ -1,4 +1,5 @@
 ### The functions you need in JavaScript that aren't provided!  
+An ever-growing supply of the best functions and classes, found and made by people from different places in the world!
 
 --------------
 
