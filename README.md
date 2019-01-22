@@ -47,7 +47,7 @@ var num = 0.1+0.2        // Returns 0.30000000000000004 - ummm... what?!
 var num = (0.1+0.2).A()  // Returns 0.3 - Much better!
 ```
 
-### "Repeat" Loops  
+### "`Repeat`" Loops  
 
 A syntatic sugar trademark has been to make loops that look GOOD.  MasMas comes with two such loops:
 ```js
@@ -62,6 +62,7 @@ execute(3, () => {
 However, using execute is recommended because support for *times* is shaky.  
 
 ### Rounding  
+
 Why hasn't JavaScript have this from the start?!  
 
 This is pretty much self-explanatory.
@@ -145,8 +146,10 @@ loadScript(url, function() {
 Random numbers, made easy:
 ```js
 var r = new Random();
-r.getRandomInt(1, 10);
-r.getRandomFloat(1, 10);
+
+// pass false for int, true for float
+r.getRandomNumber(1, 10, false); // returns a random int
+r.getRandomNumber(1, 10, true); // returns a random float
 r.getRandomBool();
 ```
 
