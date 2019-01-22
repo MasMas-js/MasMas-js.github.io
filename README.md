@@ -72,6 +72,7 @@ Insert characters in the middle of a string!
 ```js
 ("Hello World").splice(0/*index*/, 0/*just put zero for this one*/, "Hi") // returns "HiHello World"
 ```
+
 ### `global` Variables  
 
 Define global variables from inside functions! (Without any worries about overriding something)
@@ -83,7 +84,7 @@ foo()
 console.log(something) // Logs 5
 ```
 
-### Exists?  
+### Exists  
 
 Check if something exists:  
 ```js
@@ -95,7 +96,7 @@ exists(x) // returns false
 
 You can now create a variable stored in localStorage like this:
 ```js
-localStore("variable", 5) // Remebers variable in localStorage and can update
+localStore("variable", 5); // Remebers variable in localStorage and can update
 ```
 ### The Wrap Function  
 
@@ -108,12 +109,10 @@ wrap(() => {
 
 ### loadjQuery & loadScript  
 
-***(This DOSEN'T WORK YET and has been removed for now)***  
-
 Include JavaScript files on the fly!
 ```js
-loadjQuery()    // Now you have access to jQuery
-loadScript(url) // Load another script by the url
+loadjQuery();    // Now you have access to jQuery
+loadScript(url); // Load another script by the url
 ```
 
 ### Random class!  
