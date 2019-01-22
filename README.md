@@ -103,7 +103,7 @@ Basically an IIFE made easy + readable:
 ```js
 wrap(() => {
   // Do stuff...
-}
+})
 ```
 
 ### loadjQuery & loadScript  
