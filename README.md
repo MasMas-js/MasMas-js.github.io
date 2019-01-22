@@ -8,9 +8,11 @@ Download MasMas.js from our [GitHub repository][GitHub Main].  Then, unzip the f
 In the HTML head, put:
 ```html
 <script src="masmas.js" type="text/javascript"></script>
+
 <script>
   // Or you can use GitHub's servers to load the script in, no download required!
 </script>
+
 <script src="https://raw.githubusercontent.com/MasMas-js/MasMas.js/master/masmas.js" type="text/javascript"></script>
 ```
 
