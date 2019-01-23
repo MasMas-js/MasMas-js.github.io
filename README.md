@@ -127,7 +127,7 @@ Include JavaScript files on the fly!
 ```js
 loadjQuery();    // Now you have access to jQuery
 loadScript(url); // Load another script by the url
-// these raw methods are NOT suggested. Read the section below this text for more info.
+// These raw methods are NOT suggested. Read the section below this text for more info.
 ```
 However, if you just load the script, you won't have access to it for a little while. 
 This can lead to unexpected errors. You can solve this by inserting a callback function to 
