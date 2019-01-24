@@ -175,7 +175,7 @@ can.fill("Color");
 
 ---------
 
-#### Organization-wide Documents  
+#### Organization-wide documents  
 When contributing to any repository in this organization, please keep in mind the content of the following documents:  
 - [X] [Code of conduct][code of conduct]
 - [X] [Contributing guidelines][contrib]
