@@ -139,7 +139,7 @@ loadjQuery(function() { // Once jQuery is loaded, do something with it.
 
 // Or with any other script:
 loadScript(url, function() {
-  // Do stuff...
+  console.log("Some cool script is now loaded!");
 });
 ```
 
