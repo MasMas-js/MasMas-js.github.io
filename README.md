@@ -178,7 +178,7 @@ can.fill("Color");
 #### Organization-wide Documents  
 When contributing to any repository in this organization, please keep in mind the content of the following documents:  
 - [X] [Code of conduct][code of conduct]
-- [X] [Contributing Guidelines][contrib]
+- [X] [Contributing guidelines][contrib]
 
 [code of conduct]: https://github.com/MasMas-js/MasMas.js/blob/master/.github/CODE_OF_CONDUCT.md
 [contrib]: https://github.com/MasMas-js/MasMas.js/blob/master/.github/CONTRIBUTING.md
