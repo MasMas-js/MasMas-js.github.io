@@ -1,4 +1,5 @@
 ### The functions you need in JavaScript that aren't provided!  
+
 An ever-growing supply of the best functions and classes, found and made by people from different places in the world!
 
 --------------
@@ -173,12 +174,15 @@ can.text(text, x, y);
 can.fill("Color");
 ```
 
----------
+## Organization-wide documents  
 
-#### Organization-wide documents  
 When contributing to any repository in this organization, please keep in mind the content of the following documents:  
 - [X] [Code of conduct][code of conduct]
 - [X] [Contributing guidelines][contrib]
+
+## Join us!  
+
+To join us in our mission, open a pull request in any of our repositories.  If you contribute enough, either RDIL or N8programs will send you an organization invite.  
 
 [code of conduct]: https://github.com/MasMas-js/MasMas.js/blob/master/.github/CODE_OF_CONDUCT.md
 [contrib]: https://github.com/MasMas-js/MasMas.js/blob/master/.github/CONTRIBUTING.md
