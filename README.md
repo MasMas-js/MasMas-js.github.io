@@ -173,6 +173,8 @@ can.text(text, x, y);
 can.fill("Color");
 ```
 
+---------
+
 #### Organization-wide Documents  
 When contributing to any repository in this organization, please keep in mind the content of the following documents:  
 - [X] [Code of conduct][code of conduct]
