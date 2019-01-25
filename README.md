@@ -71,7 +71,7 @@ execute(3, () => {
 });
 // These do the same thing! 
 ```
-However, using execute is recommended because support for *times* is shaky.  
+However, using `execute` is recommended because support for `times` is not the best.  
 
 ### Rounding  
 
