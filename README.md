@@ -20,7 +20,18 @@ In the HTML head, put:
 
 ## Documentation  
 
-### `isFloat` & `isInteger`
+### Check if MasMas is loaded 
+
+To see if MasMas.js is loaded on your page, you can run:
+
+```js
+// isLoaded will return true if it is loaded
+if(isLoaded) console.log('MasMas.js says hello world!');
+else console.log('MasMas.js isn\'t loaded, how sad.');
+```
+
+### `isFloat` & `isInteger`  
+
 Checks to see if number passed is a float/int depending on which function you use.  Takes the true value of the number as a parameter:
 ```js
 isInt(5);     // returns true
@@ -130,9 +141,11 @@ loadjQuery();    // Now you have access to jQuery
 loadScript(url); // Load another script by the url
 // These raw methods are NOT suggested. Read the section below this text for more info.
 ```
+
 However, if you just load the script, you won't have access to it for a little while. 
 This can lead to unexpected errors. You can solve this by inserting a callback function to 
 execute once the script is loaded:
+
 ```js
 loadjQuery(function() { // Once jQuery is loaded, do something with it.
   $("body").html("jQuery was loaded!");
@@ -159,12 +172,15 @@ r.getRandomBool();
 ### Easy `canvas` interface  
 
 Get a head start with the HTML5 canvas with the setupCanvas function.
+
 ```js
 setupCanvas();
 // canvas is document.getElementById("canvas");
 // ctx is canvas.getContext('2d');
 ```
+
 And then use the `MasMasCanvas` class to simplify canvas drawing:
+
 ```js
 var can = new MasMasCanvas(ctx);
 // And you get four nice methods to use:
