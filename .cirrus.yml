@@ -1,0 +1,17 @@
+container:
+  image: node:latest
+  cpu: 4
+
+link_check_task:
+  node_modules_cache:
+    folder: node_modules
+    populate_script: npm install -g markdown-link-check@3.7.2
+  script: find . -name \*.md -exec markdown-link-check {} \;
+
+markdown_lint_task:
+  depends_on:
+    - link_check
+  node_modules_cache:
+    folder: node_modules
+    populate_script: npm install -g remark-lint remark-cli remark-preset-lint-recommended
+  script: find . -name \*.md -exec remark {} \;
